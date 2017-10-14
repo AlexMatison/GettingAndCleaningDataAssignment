@@ -9,7 +9,10 @@ This code book describes the data contained in the aggregatedData.csv file, whic
 Refer to the "Human Activity Recognition Using Smartphones Dataset" README.txt for a full description of the dataset.
 
 ### Variables
-activityLabels
+| **Variable**           | **Description**              |  
+| activityLabels         | Walking etc              |
+
+
 subjectId
 tBodyAcc-mean()-X
 tBodyAcc-mean()-Y
