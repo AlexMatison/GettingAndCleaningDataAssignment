@@ -10,10 +10,14 @@ Refer to the "Human Activity Recognition Using Smartphones Dataset" README.txt f
 
 ### Variables
 
-| **Variable**           | **Description**              |  
-|------------------------|------------------------------|  
-| activityLabels         | Walking etc              |  
+| **Variable**           | **Description**              |  ** Values ** |
+|------------------------|------------------------------|---------------|  
+| activityLabels         | Walking etc                  | WALKING<br>WALKING_UPSTAIRS<br>WALKING_DOWNSTAIRS<br>SITTING<br>STANDING<br>LAYING<br>
+| testing                | this is a test               | testing       |
 
+
+
+WALKING<br>WALKING_UPSTAIRS<br>WALKING_DOWNSTAIRS<br>SITTING<br>STANDING<br>LAYING<br>
 
 | Command | Description |
 | --- | --- |
