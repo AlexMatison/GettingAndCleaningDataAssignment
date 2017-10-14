@@ -93,15 +93,7 @@ X_merged <- rbind(X_train, X_test)
 
 X_merged[,2] <- factor(X_merged[,2], levels = activity_labels[,1], labels = activity_labels[,2])
 
-# From the data set in step 4, creates a second,
-# independent tidy data set with the average of
-# each variable for each activity and each subject.
-
-# subject, activity, variable, average
-# aggdata <-aggregate(mtcars, by=list(cyl,gear), FUN=mean, na.rm=TRUE)
-
-aggregatedData <- aggregate(x~subjectId+activityLabel, X_merged, FUN=mean, na.rm=TRUE)
-
-# This works but isn't fantastic. It is trying to mean the columns i'm grouping by.
-#aggregatedData <- aggregate(X_merged, by=list(group.subjectId=X_merged$subjectId, group.activityLabels=X_merged$activityLabel), FUN=mean, na.rm=TRUE)
-
+# Aggregate the data. Find the mean of each variable for each activity and each subject.
+aggregatedData <- aggregate(X_merged, by=list(group.subjectId=X_merged$subjectId, group.activityLabels=X_merged$activityLabel), FUN=mean, na.rm=TRUE)
+# Remove a couple of duplicate columns.
+aggregatedData <- subset(aggregatedData, select=-c(activityLabel,group.subjectId))
