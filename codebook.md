@@ -9,8 +9,18 @@ This code book describes the data contained in the aggregatedData.csv file, whic
 Refer to the "Human Activity Recognition Using Smartphones Dataset" README.txt for a full description of the dataset.
 
 ### Variables
+
 | **Variable**           | **Description**              |  
-| activityLabels         | Walking etc              |
+|------------------------|------------------------------|  
+| activityLabels         | Walking etc              |  
+
+
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
+
 
 
 subjectId
