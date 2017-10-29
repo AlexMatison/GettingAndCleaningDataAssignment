@@ -97,3 +97,8 @@ X_merged[,2] <- factor(X_merged[,2], levels = activity_labels[,1], labels = acti
 aggregatedData <- aggregate(X_merged, by=list(group.subjectId=X_merged$subjectId, group.activityLabels=X_merged$activityLabel), FUN=mean, na.rm=TRUE)
 # Remove a couple of duplicate columns.
 aggregatedData <- subset(aggregatedData, select=-c(activityLabel,group.subjectId))
+# Clean up the name of one of the columns.
+install.packages("plyr")
+library(plyr)
+aggregatedData <- rename(aggregatedData, c("group.activityLabels"="activityLabels"))
+write.csv(aggregatedData, "aggregatedData.csv")
