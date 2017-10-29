@@ -13,12 +13,12 @@ Refer to the "Human Activity Recognition Using Smartphones Dataset" README.txt f
 Variable name: activityLabels  
 Variable description: A label for each activity.  
 Possible values:  
-WALKING
-WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTING
-STANDING
-LAYING
+WALKING  
+WALKING_UPSTAIRS  
+WALKING_DOWNSTAIRS  
+SITTING  
+STANDING  
+LAYING  
 
 Variable name: subjectId  
 Variable description: The ID for each subject whose activities were recorded for this experiment.  
