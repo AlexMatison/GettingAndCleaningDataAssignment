@@ -10,9 +10,9 @@ Refer to the "Human Activity Recognition Using Smartphones Dataset" README.txt f
 
 ### Variables
 
-Variable name: activityLabels
-Variable description: A label for each activity.
-Possible values: 
+Variable name: activityLabels  
+Variable description: A label for each activity.  
+Possible values:  
 WALKING
 WALKING_UPSTAIRS
 WALKING_DOWNSTAIRS
@@ -20,11 +20,11 @@ SITTING
 STANDING
 LAYING
 
-Variable name: subjectId
-Variable description: The ID for each subject whose activities were recorded for this experiment.
-Possible values: 1 to 30
-
-The following list of variables are described using the following key:  
+Variable name: subjectId  
+Variable description: The ID for each subject whose activities were recorded for this experiment.  
+Possible values: 1 to 30  
+  
+The following list of variables are described using the following key:   
 t = time domain signal  
 f = frequency domain signal  
 X/Y/Z = X, Y or Z axis  
@@ -35,7 +35,7 @@ mean() = Mean value (note that all values in this dataset are mean values. In th
 std() = Standard deviation  
 Jerk = Jerk signal  
 Mag = Magnitude  
-Possible values: -1 to 1.
+Possible values: -1 to 1.  
 Variable names:  
 subjectId  
 tBodyAcc-mean()-X  
