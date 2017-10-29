@@ -11,7 +11,7 @@ Student: Alex Matison
 2. From the R console, set the R working directory to the directory of cleanUpData.r. For example:  
 `setwd("~/data/")`
 3. Run cleanUpData.r  
-`source("cleanUpData.r")`
+`source("run_analysis.r")`
 4. This will create a dataframe called aggregatedData. You can then export it with `write.table` or an similar function.
 
 
